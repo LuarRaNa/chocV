@@ -1,3 +1,4 @@
 (sym_lib_table
-  (lib (name HorizonParts)(type Legacy)(uri /Users/rich/Projects/mk/kicad/rsu_keyboard/horizon-components/horizon-components.lib)(options "")(descr ""))
+  (lib (name HorizonParts)(type Legacy)(uri C:/Users/Luis/Proyectos/horizon/horizon-main/kicad-libraries/horizon-components/horizon-components.lib)(options "")(descr ""))
+  (lib (name chocV-rescue)(type Legacy)(uri ${KIPRJMOD}/chocV-rescue.lib)(options "")(descr ""))
 )

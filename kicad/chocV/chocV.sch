@@ -16,7 +16,7 @@ $EndDescr
 Text GLabel 7900 4550 0    50   Input ~ 0
 reset
 $Comp
-L power:GND #PWR0101
+L chocV-rescue:GND-power #PWR0101
 U 1 1 61973D8F
 P 9700 4650
 F 0 "#PWR0101" H 9700 4400 50  0001 C CNN
@@ -27,31 +27,7 @@ F 3 "" H 9700 4650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0102
-U 1 1 61974548
-P 8200 6100
-F 0 "#PWR0102" H 8200 5850 50  0001 C CNN
-F 1 "GND" H 8205 5927 50  0000 C CNN
-F 2 "" H 8200 6100 50  0001 C CNN
-F 3 "" H 8200 6100 50  0001 C CNN
-	1    8200 6100
-	1    0    0    -1  
-$EndComp
-$Comp
-L Switch:SW_Push SW37
-U 1 1 61974F5B
-P 8400 6100
-F 0 "SW37" H 8400 6385 50  0000 C CNN
-F 1 "Reset Switch" H 8400 6294 50  0000 C CNN
-F 2 "Horizon:SW_Push_6mm" H 8400 6300 50  0001 C CNN
-F 3 "~" H 8400 6300 50  0001 C CNN
-	1    8400 6100
-	1    0    0    -1  
-$EndComp
-Text GLabel 8600 6100 2    50   Input ~ 0
-reset
-$Comp
-L power:GND #PWR0103
+L chocV-rescue:GND-power #PWR0103
 U 1 1 61975D6B
 P 7400 4300
 F 0 "#PWR0103" H 7400 4050 50  0001 C CNN
@@ -62,7 +38,7 @@ F 3 "" H 7400 4300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:VCC #PWR0104
+L chocV-rescue:VCC-power #PWR0104
 U 1 1 619773E8
 P 7400 4750
 F 0 "#PWR0104" H 7400 4600 50  0001 C CNN
@@ -98,7 +74,7 @@ $EndComp
 Wire Wire Line
 	1600 1300 1600 1400
 $Comp
-L Switch:SW_Push SW1
+L chocV-rescue:SW_Push-Switch SW1
 U 1 1 61977F08
 P 1400 1300
 F 0 "SW1" H 1400 1585 50  0000 C CNN
@@ -122,7 +98,7 @@ $EndComp
 Wire Wire Line
 	1600 2000 1600 2100
 $Comp
-L Switch:SW_Push SW11
+L chocV-rescue:SW_Push-Switch SW11
 U 1 1 6197E59D
 P 1400 2000
 F 0 "SW11" H 1400 2285 50  0000 C CNN
@@ -146,7 +122,7 @@ $EndComp
 Wire Wire Line
 	1600 2700 1600 2800
 $Comp
-L Switch:SW_Push SW21
+L chocV-rescue:SW_Push-Switch SW21
 U 1 1 61980601
 P 1400 2700
 F 0 "SW21" H 1400 2985 50  0000 C CNN
@@ -170,7 +146,7 @@ $EndComp
 Wire Wire Line
 	2400 1300 2400 1400
 $Comp
-L Switch:SW_Push SW2
+L chocV-rescue:SW_Push-Switch SW2
 U 1 1 61984D4C
 P 2200 1300
 F 0 "SW2" H 2200 1585 50  0000 C CNN
@@ -194,7 +170,7 @@ $EndComp
 Wire Wire Line
 	2400 2000 2400 2100
 $Comp
-L Switch:SW_Push SW12
+L chocV-rescue:SW_Push-Switch SW12
 U 1 1 61984D59
 P 2200 2000
 F 0 "SW12" H 2200 2285 50  0000 C CNN
@@ -218,7 +194,7 @@ $EndComp
 Wire Wire Line
 	2400 2700 2400 2800
 $Comp
-L Switch:SW_Push SW22
+L chocV-rescue:SW_Push-Switch SW22
 U 1 1 61984D66
 P 2200 2700
 F 0 "SW22" H 2200 2985 50  0000 C CNN
@@ -242,7 +218,7 @@ $EndComp
 Wire Wire Line
 	3200 1300 3200 1400
 $Comp
-L Switch:SW_Push SW3
+L chocV-rescue:SW_Push-Switch SW3
 U 1 1 61987C29
 P 3000 1300
 F 0 "SW3" H 3000 1585 50  0000 C CNN
@@ -266,7 +242,7 @@ $EndComp
 Wire Wire Line
 	3200 2000 3200 2100
 $Comp
-L Switch:SW_Push SW13
+L chocV-rescue:SW_Push-Switch SW13
 U 1 1 61987C36
 P 3000 2000
 F 0 "SW13" H 3000 2285 50  0000 C CNN
@@ -290,7 +266,7 @@ $EndComp
 Wire Wire Line
 	3200 2700 3200 2800
 $Comp
-L Switch:SW_Push SW23
+L chocV-rescue:SW_Push-Switch SW23
 U 1 1 61987C43
 P 3000 2700
 F 0 "SW23" H 3000 2985 50  0000 C CNN
@@ -314,7 +290,7 @@ $EndComp
 Wire Wire Line
 	4000 1300 4000 1400
 $Comp
-L Switch:SW_Push SW4
+L chocV-rescue:SW_Push-Switch SW4
 U 1 1 6198C8E5
 P 3800 1300
 F 0 "SW4" H 3800 1585 50  0000 C CNN
@@ -338,7 +314,7 @@ $EndComp
 Wire Wire Line
 	4000 2000 4000 2100
 $Comp
-L Switch:SW_Push SW14
+L chocV-rescue:SW_Push-Switch SW14
 U 1 1 6198C8F2
 P 3800 2000
 F 0 "SW14" H 3800 2285 50  0000 C CNN
@@ -362,7 +338,7 @@ $EndComp
 Wire Wire Line
 	4000 2700 4000 2800
 $Comp
-L Switch:SW_Push SW24
+L chocV-rescue:SW_Push-Switch SW24
 U 1 1 6198C8FF
 P 3800 2700
 F 0 "SW24" H 3800 2985 50  0000 C CNN
@@ -386,7 +362,7 @@ $EndComp
 Wire Wire Line
 	4800 1300 4800 1400
 $Comp
-L Switch:SW_Push SW5
+L chocV-rescue:SW_Push-Switch SW5
 U 1 1 61993A90
 P 4600 1300
 F 0 "SW5" H 4600 1585 50  0000 C CNN
@@ -410,7 +386,7 @@ $EndComp
 Wire Wire Line
 	4800 2000 4800 2100
 $Comp
-L Switch:SW_Push SW15
+L chocV-rescue:SW_Push-Switch SW15
 U 1 1 61993A9D
 P 4600 2000
 F 0 "SW15" H 4600 2285 50  0000 C CNN
@@ -434,7 +410,7 @@ $EndComp
 Wire Wire Line
 	4800 2700 4800 2800
 $Comp
-L Switch:SW_Push SW25
+L chocV-rescue:SW_Push-Switch SW25
 U 1 1 61993AAA
 P 4600 2700
 F 0 "SW25" H 4600 2985 50  0000 C CNN
@@ -458,7 +434,7 @@ $EndComp
 Wire Wire Line
 	6150 1300 6150 1400
 $Comp
-L Switch:SW_Push SW6
+L chocV-rescue:SW_Push-Switch SW6
 U 1 1 619B4BAA
 P 5950 1300
 F 0 "SW6" H 5950 1585 50  0000 C CNN
@@ -482,7 +458,7 @@ $EndComp
 Wire Wire Line
 	6150 2000 6150 2100
 $Comp
-L Switch:SW_Push SW16
+L chocV-rescue:SW_Push-Switch SW16
 U 1 1 619B4BB7
 P 5950 2000
 F 0 "SW16" H 5950 2285 50  0000 C CNN
@@ -506,7 +482,7 @@ $EndComp
 Wire Wire Line
 	6150 2700 6150 2800
 $Comp
-L Switch:SW_Push SW26
+L chocV-rescue:SW_Push-Switch SW26
 U 1 1 619B4BC4
 P 5950 2700
 F 0 "SW26" H 5950 2985 50  0000 C CNN
@@ -530,7 +506,7 @@ $EndComp
 Wire Wire Line
 	6950 1300 6950 1400
 $Comp
-L Switch:SW_Push SW7
+L chocV-rescue:SW_Push-Switch SW7
 U 1 1 619B4BD1
 P 6750 1300
 F 0 "SW7" H 6750 1585 50  0000 C CNN
@@ -554,7 +530,7 @@ $EndComp
 Wire Wire Line
 	6950 2000 6950 2100
 $Comp
-L Switch:SW_Push SW17
+L chocV-rescue:SW_Push-Switch SW17
 U 1 1 619B4BDE
 P 6750 2000
 F 0 "SW17" H 6750 2285 50  0000 C CNN
@@ -578,7 +554,7 @@ $EndComp
 Wire Wire Line
 	6950 2700 6950 2800
 $Comp
-L Switch:SW_Push SW27
+L chocV-rescue:SW_Push-Switch SW27
 U 1 1 619B4BEB
 P 6750 2700
 F 0 "SW27" H 6750 2985 50  0000 C CNN
@@ -602,7 +578,7 @@ $EndComp
 Wire Wire Line
 	7750 1300 7750 1400
 $Comp
-L Switch:SW_Push SW8
+L chocV-rescue:SW_Push-Switch SW8
 U 1 1 619B4BF8
 P 7550 1300
 F 0 "SW8" H 7550 1585 50  0000 C CNN
@@ -626,7 +602,7 @@ $EndComp
 Wire Wire Line
 	7750 2000 7750 2100
 $Comp
-L Switch:SW_Push SW18
+L chocV-rescue:SW_Push-Switch SW18
 U 1 1 619B4C05
 P 7550 2000
 F 0 "SW18" H 7550 2285 50  0000 C CNN
@@ -650,7 +626,7 @@ $EndComp
 Wire Wire Line
 	7750 2700 7750 2800
 $Comp
-L Switch:SW_Push SW28
+L chocV-rescue:SW_Push-Switch SW28
 U 1 1 619B4C12
 P 7550 2700
 F 0 "SW28" H 7550 2985 50  0000 C CNN
@@ -674,7 +650,7 @@ $EndComp
 Wire Wire Line
 	8550 1300 8550 1400
 $Comp
-L Switch:SW_Push SW9
+L chocV-rescue:SW_Push-Switch SW9
 U 1 1 619B4C1F
 P 8350 1300
 F 0 "SW9" H 8350 1585 50  0000 C CNN
@@ -698,7 +674,7 @@ $EndComp
 Wire Wire Line
 	8550 2000 8550 2100
 $Comp
-L Switch:SW_Push SW19
+L chocV-rescue:SW_Push-Switch SW19
 U 1 1 619B4C2C
 P 8350 2000
 F 0 "SW19" H 8350 2285 50  0000 C CNN
@@ -722,7 +698,7 @@ $EndComp
 Wire Wire Line
 	8550 2700 8550 2800
 $Comp
-L Switch:SW_Push SW29
+L chocV-rescue:SW_Push-Switch SW29
 U 1 1 619B4C39
 P 8350 2700
 F 0 "SW29" H 8350 2985 50  0000 C CNN
@@ -746,7 +722,7 @@ $EndComp
 Wire Wire Line
 	9350 1300 9350 1400
 $Comp
-L Switch:SW_Push SW10
+L chocV-rescue:SW_Push-Switch SW10
 U 1 1 619B4C46
 P 9150 1300
 F 0 "SW10" H 9150 1585 50  0000 C CNN
@@ -770,7 +746,7 @@ $EndComp
 Wire Wire Line
 	9350 2000 9350 2100
 $Comp
-L Switch:SW_Push SW20
+L chocV-rescue:SW_Push-Switch SW20
 U 1 1 619B4C53
 P 9150 2000
 F 0 "SW20" H 9150 2285 50  0000 C CNN
@@ -794,7 +770,7 @@ $EndComp
 Wire Wire Line
 	9350 2700 9350 2800
 $Comp
-L Switch:SW_Push SW30
+L chocV-rescue:SW_Push-Switch SW30
 U 1 1 619B4C60
 P 9150 2700
 F 0 "SW30" H 9150 2985 50  0000 C CNN
@@ -818,7 +794,7 @@ $EndComp
 Wire Wire Line
 	4800 3400 4800 3500
 $Comp
-L Switch:SW_Push SW33
+L chocV-rescue:SW_Push-Switch SW33
 U 1 1 619B700C
 P 4600 3400
 F 0 "SW33" H 4600 3685 50  0000 C CNN
@@ -842,7 +818,7 @@ $EndComp
 Wire Wire Line
 	4000 3400 4000 3500
 $Comp
-L Switch:SW_Push SW32
+L chocV-rescue:SW_Push-Switch SW32
 U 1 1 619B8267
 P 3800 3400
 F 0 "SW32" H 3800 3685 50  0000 C CNN
@@ -866,7 +842,7 @@ $EndComp
 Wire Wire Line
 	3200 3400 3200 3500
 $Comp
-L Switch:SW_Push SW31
+L chocV-rescue:SW_Push-Switch SW31
 U 1 1 619B967E
 P 3000 3400
 F 0 "SW31" H 3000 3685 50  0000 C CNN
@@ -890,7 +866,7 @@ $EndComp
 Wire Wire Line
 	7750 3400 7750 3500
 $Comp
-L Switch:SW_Push SW36
+L chocV-rescue:SW_Push-Switch SW36
 U 1 1 619BED4B
 P 7550 3400
 F 0 "SW36" H 7550 3685 50  0000 C CNN
@@ -914,7 +890,7 @@ $EndComp
 Wire Wire Line
 	6950 3400 6950 3500
 $Comp
-L Switch:SW_Push SW35
+L chocV-rescue:SW_Push-Switch SW35
 U 1 1 619BED58
 P 6750 3400
 F 0 "SW35" H 6750 3685 50  0000 C CNN
@@ -938,7 +914,7 @@ $EndComp
 Wire Wire Line
 	6150 3400 6150 3500
 $Comp
-L Switch:SW_Push SW34
+L chocV-rescue:SW_Push-Switch SW34
 U 1 1 619BED65
 P 5950 3400
 F 0 "SW34" H 5950 3685 50  0000 C CNN
@@ -1191,17 +1167,6 @@ Text GLabel 7900 4850 0    50   Input ~ 0
 row2
 Text GLabel 9300 4750 2    50   Input ~ 0
 row3
-$Comp
-L HorizonParts:Pro-Micro U1
-U 1 1 6197343E
-P 8600 4900
-F 0 "U1" H 8600 5737 60  0000 C CNN
-F 1 "Pro-Micro" H 8600 5631 60  0000 C CNN
-F 2 "Horizon:Pro-Micro" V 9650 2400 60  0001 C CNN
-F 3 "" V 9650 2400 60  0001 C CNN
-	1    8600 4900
-	-1   0    0    -1  
-$EndComp
 Text GLabel 9300 4850 2    50   Input ~ 0
 row4
 Text GLabel 7900 5450 0    50   Input ~ 0
@@ -1312,4 +1277,73 @@ F 3 "" H 3150 5950 50  0001 C CNN
 	1    3150 5950
 	1    0    0    -1  
 $EndComp
+Text GLabel 8600 6100 2    50   Input ~ 0
+reset
+$Comp
+L chocV-rescue:SW_Push-Switch SW37
+U 1 1 61974F5B
+P 8400 6100
+F 0 "SW37" H 8400 6385 50  0000 C CNN
+F 1 "Reset Switch" H 8400 6294 50  0000 C CNN
+F 2 "other:SW_SPST_TL3342" H 8400 6300 50  0001 C CNN
+F 3 "~" H 8400 6300 50  0001 C CNN
+	1    8400 6100
+	1    0    0    -1  
+$EndComp
+$Comp
+L chocV-rescue:GND-power #PWR0102
+U 1 1 61974548
+P 8200 6100
+F 0 "#PWR0102" H 8200 5850 50  0001 C CNN
+F 1 "GND" H 8205 5927 50  0000 C CNN
+F 2 "" H 8200 6100 50  0001 C CNN
+F 3 "" H 8200 6100 50  0001 C CNN
+	1    8200 6100
+	1    0    0    -1  
+$EndComp
+$Comp
+L split_3x-cache:Device_Battery_Cell BT1
+U 1 1 61E7371F
+P 5200 5050
+F 0 "BT1" H 5318 5146 50  0000 L CNN
+F 1 "Device_Battery_Cell" H 5318 5055 50  0000 L CNN
+F 2 "other:PinHeader_1x02_P1.27mm_Vertical" V 5200 5110 50  0001 C CNN
+F 3 "" V 5200 5110 50  0001 C CNN
+	1    5200 5050
+	1    0    0    -1  
+$EndComp
+$Comp
+L split_3x-cache:Switch_SW_DIP_x01 SW38
+U 1 1 61E78F9E
+P 6000 4650
+F 0 "SW38" H 6000 4917 50  0000 C CNN
+F 1 "Switch_SW_DIP_x01" H 6000 4826 50  0000 C CNN
+F 2 "other:switch_MSK-12C02_smd" H 6000 4650 50  0001 C CNN
+F 3 "" H 6000 4650 50  0001 C CNN
+	1    6000 4650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5200 4850 5200 4650
+Wire Wire Line
+	5200 4650 5700 4650
+Text GLabel 7900 4350 0    50   Input ~ 0
+raw
+$Comp
+L HorizonParts:Pro-Micro U1
+U 1 1 6197343E
+P 8600 4900
+F 0 "U1" H 8600 5737 60  0000 C CNN
+F 1 "Pro-Micro" H 8600 5631 60  0000 C CNN
+F 2 "Horizon:Pro-Micro" V 9650 2400 60  0001 C CNN
+F 3 "" V 9650 2400 60  0001 C CNN
+	1    8600 4900
+	-1   0    0    -1  
+$EndComp
+Text GLabel 7900 4450 0    50   Input ~ 0
+ground
+Text GLabel 5200 5150 0    50   Input ~ 0
+ground
+Text GLabel 6300 4650 2    50   Input ~ 0
+raw
 $EndSCHEMATC

@@ -1,4 +1,5 @@
 (fp_lib_table
-  (lib (name Horizon)(type KiCad)(uri /Users/rich/Projects/mk/kicad/rsu_keyboard/horizon-footprints.pretty)(options "")(descr ""))
+  (lib (name Horizon)(type KiCad)(uri C:/Users/Luis/Proyectos/horizon/horizon-main/kicad-libraries/horizon-footprints.pretty)(options "")(descr ""))
   (lib (name rsu_graphics)(type KiCad)(uri /Users/rich/Projects/mk/kicad/rsu_keyboard/rsu_graphics.pretty)(options "")(descr ""))
+  (lib (name other)(type KiCad)(uri C:/Users/Luis/Proyectos/chocV-main/kicad/other.pretty)(options "")(descr ""))
 )
