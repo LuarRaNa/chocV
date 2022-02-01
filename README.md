@@ -1,3 +1,10 @@
+# Rev BLE Friendly
+
+These changes are intended to help with power management (accessible power cut-off and reset switches) and portability (doesn't rely on deep sleep).
+![Preview 1](./images/chocV_BF1.png "Preview 1")
+
+![Preview 2](./images/chocV_BF2.png "Preview 2")
+
 # chocV
 
 A 36 key choc keyboard based on the [Horizon](https://github.com/skarrmann/horizon) 
