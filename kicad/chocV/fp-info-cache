@@ -1,4 +1,4 @@
-34469479961372
+34492420709861
 Horizon
 D_SOD-123
 Diode SOD-123
@@ -63,18 +63,18 @@ humla
 0
 0
 other
-PinHeader_1x02_P1.27mm_Vertical
-Through hole straight pin header, 1x02, 1.27mm pitch, single row
-Through hole pin header THT 1x02 1.27mm single row
-0
-2
-2
-other
 SW_SPST_TL3342
 Low-profile SMD Tactile Switch, https://www.e-switch.com/system/asset/product_line/data_sheet/165/TL3342.pdf
 SPST Tactile Switch
 0
 4
+2
+other
+battery_pads
+battery_pads
+battery_pads
+0
+2
 2
 other
 switch_MSK-12C02_smd

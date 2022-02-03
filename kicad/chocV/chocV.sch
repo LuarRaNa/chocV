@@ -1304,29 +1304,25 @@ $EndComp
 $Comp
 L split_3x-cache:Device_Battery_Cell BT1
 U 1 1 61E7371F
-P 5200 5050
-F 0 "BT1" H 5318 5146 50  0000 L CNN
-F 1 "Device_Battery_Cell" H 5318 5055 50  0000 L CNN
-F 2 "other:PinHeader_1x02_P1.27mm_Vertical" V 5200 5110 50  0001 C CNN
-F 3 "" V 5200 5110 50  0001 C CNN
-	1    5200 5050
+P 5250 4750
+F 0 "BT1" H 5368 4846 50  0000 L CNN
+F 1 "Battery_Cell" H 5368 4755 50  0000 L CNN
+F 2 "other:battery_pads" V 5250 4810 50  0001 C CNN
+F 3 "" V 5250 4810 50  0001 C CNN
+	1    5250 4750
 	1    0    0    -1  
 $EndComp
 $Comp
 L split_3x-cache:Switch_SW_DIP_x01 SW38
 U 1 1 61E78F9E
-P 6000 4650
-F 0 "SW38" H 6000 4917 50  0000 C CNN
-F 1 "Switch_SW_DIP_x01" H 6000 4826 50  0000 C CNN
-F 2 "other:switch_MSK-12C02_smd" H 6000 4650 50  0001 C CNN
-F 3 "" H 6000 4650 50  0001 C CNN
-	1    6000 4650
+P 5550 4550
+F 0 "SW38" H 5550 4817 50  0000 C CNN
+F 1 "Switch_SW_DIP_x01" H 5550 4726 50  0000 C CNN
+F 2 "other:switch_MSK-12C02_smd" H 5550 4550 50  0001 C CNN
+F 3 "" H 5550 4550 50  0001 C CNN
+	1    5550 4550
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	5200 4850 5200 4650
-Wire Wire Line
-	5200 4650 5700 4650
 Text GLabel 7900 4350 0    50   Input ~ 0
 raw
 $Comp
@@ -1342,8 +1338,8 @@ F 3 "" V 9650 2400 60  0001 C CNN
 $EndComp
 Text GLabel 7900 4450 0    50   Input ~ 0
 ground
-Text GLabel 5200 5150 0    50   Input ~ 0
+Text GLabel 5250 4850 0    50   Input ~ 0
 ground
-Text GLabel 6300 4650 2    50   Input ~ 0
+Text GLabel 5850 4550 2    50   Input ~ 0
 raw
 $EndSCHEMATC
